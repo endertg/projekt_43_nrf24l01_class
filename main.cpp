@@ -97,12 +97,12 @@ if (odb==0)
 				lcd1.lcd_puts(znak);
 				itoa(bufferout[4],znak,10);
 				lcd1.lcd_puts(znak);
-				itoa(bufferout[5],znak,10);
-				lcd1.lcd_puts(znak);
-				lcd1.lcd_puts("          ");
+				//itoa(bufferout[5],znak,10);
+				//lcd1.lcd_puts(znak);
+				//lcd1.lcd_puts("          ");
 
-				radio1.nrf24l01_write(bufferout);
-				_delay_ms(1000);
+				//radio1.nrf24l01_write(bufferout);
+				//_delay_ms(1000);
 			}
 	}else
 	{
